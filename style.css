@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'Graduate';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Graduate'),
+  	local('Graduate-Regular'),
+  	url(fonts/graduate.eot) format('embedded-opentype'),
+  	url(fonts/graduate.ttf) format('truetype'),
+  	url(fonts/graduate.woff) format('woff');
+}
+
+body {
+  background: #fff;
+  font: 14px normal Tahoma;
+  text-align: center;
+  color: #111;
+}
+
+li {
+	list-style-type: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	color: #6c879a;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear { clear: both; height: 0px; line-height: 0px; font-size: 0px; }
+
+header {
+	background: #add6f2 url('img/bg.jpg') center top no-repeat;
+	height: 450px;
+}
+
+h1,
+h2,
+h3,
+h4,
+.menu {
+	font-family: "Graduate", Tahoma;
+	font-weight: normal;
+}
+
+h1 {
+	margin: 0 auto;
+	padding-top: 35px;
+	font-size: 72px;
+	text-shadow: 2px 2px 0 #576e7e;
+	height: 100px;
+	line-height: 100px;
+	z-index: 1;
+}
+
+h1:before {
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url(img/logo.png) top left no-repeat;
+}
+
+h1 span {
+	color: #fff;
+}
+
+h2 {
+	font-size: 32px;
+	color: #576e7e;
+	margin: 15px 0 20px;
+	position: relative;
+	display: inline-block;
+	z-index: 2;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 30px;
+	color: #576e7e;
+	margin: 15px 0 20px;
+	position: relative;
+	display: inline-block;
+}
+
+h3:before,
+h3:after {
+	content: " ✭ ";
+	font-size: 28px;
+	position: absolute;
+	display: inline-block;
+	top: -2px;
+}
+
+h3:before {
+	left: -30px;
+}
+
+h3:after {
+	right: -30px;
+}
+
+h4 {
+	margin-bottom: 15px;
+	box-shadow: 2px 2px 0 #6c879a;
+	border-radius: 10px;
+	line-height: 50px;
+	background: #add6f2;
+}
+
+h4 a {
+	font-size: 20px;
+	display: block;
+	margin: 0 20px;
+	color: #4c677a;
+}
+
+h4 a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+section {
+	width: 960px;
+	background: #fff;
+	margin: 0 auto;
+	clear: both;
+	padding-bottom: 30px;
+}
+
+article {
+	width: 600px;
+	float: left;
+}
+
+aside {
+	width: 330px;
+	float: left;
+	padding-left: 30px;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+aside p {
+	text-align: right;
+}
+
+.gamedevList {
+	line-height: 24px;
+	font-size: 16px;
+}
+
+.gamedevList li {
+	list-style-type: circle;
+	margin-left: 15px;
+}
+
+.gamedevList li:before {
+	/*content: " ⁎ ";*/
+}
+
+.gamedevList a {
+	/*color: #576e7e;*/
+}
+
+.gamedevList header {
+	background: #add6f2 url('img/bg.jpg') center top no-repeat;
+	height: auto;
+	border-bottom: 2px solid #576E7E;
+}
+
+.gamedevList section {
+	text-align: left;
+}
+
+.gamedevList h1 {
+	font-size: 38px;
+	line-height: 38px;
+	height: auto;
+	padding-top: 15px;
+}
+
+.gamedevList h1 a {
+	color: #111;
+}
+
+.gamedevList h1 a:hover {
+	text-decoration: none;
+}
+
+.gamedevList h1 a:hover span {
+	color: #add6f2;
+}
+
+.gamedevList h1:before {
+	display: none;
+}
+
+.gamedevList h2 {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.gamedevList section div {
+	text-align: center;
+}
+
+.gamedevList h5 {
+	font-size: 20px;
+	line-height: 20px;
+	color: #576e7e;
+	margin: 30px 0 20px;
+	position: relative;
+	/*display: inline-block;*/
+	text-transform: uppercase;
+	border-bottom: 1px solid #add6f2;
+}
+
+.gamedevList section article {
+	width: 50%;
+	float: left;
+}
+
+.gamedevList section h5 {
+	margin-right: 30px;
+}
