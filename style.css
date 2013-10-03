@@ -224,10 +224,20 @@ aside p {
 }
 
 .gamedevList section article {
-	width: 50%;
+	width: 100%;
+}
+
+.gamedevList section article > ul > li {
+	width: 30%;
 	float: left;
+	padding-right: 15px;
+}
+
+.gamedevList section article > ul > li:first-child {
+	list-style-type: none;
 }
 
 .gamedevList section h5 {
-	margin-right: 30px;
+	padding: 0 5px;
+	text-align: left;
 }
