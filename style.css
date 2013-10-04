@@ -208,6 +208,10 @@ aside p {
 	line-height: 20px;
 }
 
+.gamedevList section article:last-child {
+	padding-bottom: 30px;
+}
+
 .gamedevList section div {
 	text-align: center;
 }
